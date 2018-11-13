@@ -21,7 +21,7 @@
             v-model="password"
           />
           <br>
-          <div class="error" v-html="error"></div>
+          <div class="custom-error" v-html="error"></div>
           <v-btn
             class="cyan"
             dark
@@ -65,7 +65,7 @@ export default {
 </script>
 
 <style scoped>
-.error {
+.custom-error {
   color: red;
 }
 </style>
