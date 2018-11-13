@@ -16,6 +16,14 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@types/geojson@^1.0.0":
+  version "1.0.6"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/@types/geojson/-/geojson-1.0.6.tgz#3e02972728c69248c2af08d60a48cbb8680fffdf"
+
+"@types/node@*":
+  version "10.12.7"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/@types/node/-/node-10.12.7.tgz#195808b2d4b2e7c33e75e7d9b24aeee88f94660d"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -35,7 +43,7 @@ acorn@^6.0.2:
   version "6.0.4"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/acorn/-/acorn-6.0.4.tgz#77377e7353b72ec5104550aa2d2097a2fd40b754"
 
-ajv@^6.5.3:
+ajv@^6.5.3, ajv@^6.5.5:
   version "6.5.5"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/ajv/-/ajv-6.5.5.tgz#cf97cdade71c6399a92c6d6c4177381291b781a1"
   dependencies:
@@ -122,6 +130,16 @@ array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
 
+asn1@~0.2.3:
+  version "0.2.4"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/asn1/-/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
+  dependencies:
+    safer-buffer "~2.1.0"
+
+assert-plus@1.0.0, assert-plus@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
+
 assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
@@ -130,9 +148,21 @@ async-each@^1.0.0:
   version "1.0.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
 
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+
 atob@^2.1.1:
   version "2.1.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
+
+aws-sign2@~0.7.0:
+  version "0.7.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
+
+aws4@^1.8.0:
+  version "1.8.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -156,9 +186,19 @@ basic-auth@~2.0.0:
   dependencies:
     safe-buffer "5.1.2"
 
+bcrypt-pbkdf@^1.0.0:
+  version "1.0.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
+  dependencies:
+    tweetnacl "^0.14.3"
+
 binary-extensions@^1.0.0:
   version "1.12.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/binary-extensions/-/binary-extensions-1.12.0.tgz#c2d780f53d45bba8317a8902d4ceeaf3a6385b14"
+
+bluebird@^3.4.6, bluebird@^3.5.0:
+  version "3.5.3"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
 
 body-parser@1.18.3, body-parser@^1.18.3:
   version "1.18.3"
@@ -249,6 +289,10 @@ capture-stack-trace@^1.0.0:
   version "1.0.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/capture-stack-trace/-/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
 
+caseless@~0.12.0:
+  version "0.12.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
+
 chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0:
   version "2.4.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
@@ -315,6 +359,13 @@ cli-width@^2.0.0:
   version "2.2.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
 
+cls-bluebird@^2.1.0:
+  version "2.1.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/cls-bluebird/-/cls-bluebird-2.1.0.tgz#37ef1e080a8ffb55c2f4164f536f1919e7968aee"
+  dependencies:
+    is-bluebird "^1.0.2"
+    shimmer "^1.1.0"
+
 code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
@@ -335,6 +386,12 @@ color-convert@^1.9.0:
 color-name@1.1.3:
   version "1.1.3"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
+
+combined-stream@^1.0.6, combined-stream@~1.0.6:
+  version "1.0.7"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/combined-stream/-/combined-stream-1.0.7.tgz#2d1d24317afb8abe95d6d2c0b07b57813539d828"
+  dependencies:
+    delayed-stream "~1.0.0"
 
 component-emitter@^1.2.1:
   version "1.2.1"
@@ -383,7 +440,7 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
-core-util-is@~1.0.0:
+core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
@@ -421,6 +478,12 @@ cross-spawn@^6.0.5:
 crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
+
+dashdash@^1.12.0:
+  version "1.14.1"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
+  dependencies:
+    assert-plus "^1.0.0"
 
 debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
@@ -482,11 +545,15 @@ del@^3.0.0:
     pify "^3.0.0"
     rimraf "^2.2.8"
 
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+
 delegates@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-depd@~1.1.2:
+depd@^1.1.0, depd@~1.1.2:
   version "1.1.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
 
@@ -517,6 +584,10 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
+dottie@^2.0.0:
+  version "2.0.1"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/dottie/-/dottie-2.0.1.tgz#697ad9d72004db7574d21f892466a3c285893659"
+
 duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
@@ -524,6 +595,13 @@ duplexer3@^0.1.4:
 duplexer@^0.1.1, duplexer@~0.1.1:
   version "0.1.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
+
+ecc-jsbn@~0.1.1:
+  version "0.1.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
+  dependencies:
+    jsbn "~0.1.0"
+    safer-buffer "^2.1.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -785,6 +863,10 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
+extend@~3.0.2:
+  version "3.0.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
+
 external-editor@^3.0.0:
   version "3.0.3"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/external-editor/-/external-editor-3.0.3.tgz#5866db29a97826dbe4bf3afd24070ead9ea43a27"
@@ -805,6 +887,14 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+extsprintf@1.3.0:
+  version "1.3.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
+
+extsprintf@^1.2.0:
+  version "1.4.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
@@ -882,6 +972,18 @@ for-in@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
 
+forever-agent@~0.6.1:
+  version "0.6.1"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
+
+form-data@~2.3.2:
+  version "2.3.3"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/form-data/-/form-data-2.3.3.tgz#dcce52c05f644f298c6a7ab936bd724ceffbf3a6"
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.6"
+    mime-types "^2.1.12"
+
 forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
@@ -938,6 +1040,10 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
+generic-pool@^3.4.0:
+  version "3.4.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/generic-pool/-/generic-pool-3.4.2.tgz#92ff7196520d670839a67308092a12aadf2f6a59"
+
 get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
@@ -945,6 +1051,12 @@ get-stream@^3.0.0:
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
+
+getpass@^0.1.1:
+  version "0.1.7"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
+  dependencies:
+    assert-plus "^1.0.0"
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -1004,6 +1116,17 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.15"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
 
+har-schema@^2.0.0:
+  version "2.0.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
+
+har-validator@~5.1.0:
+  version "5.1.3"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/har-validator/-/har-validator-5.1.3.tgz#1ef89ebd3e4996557675eed9893110dc350fa080"
+  dependencies:
+    ajv "^6.5.5"
+    har-schema "^2.0.0"
+
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
@@ -1045,6 +1168,10 @@ has@^1.0.1:
   dependencies:
     function-bind "^1.1.1"
 
+hoek@6.x.x:
+  version "6.0.3"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/hoek/-/hoek-6.0.3.tgz#7884360426d927865a0a1251fc9c59313af5b798"
+
 hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
@@ -1057,6 +1184,14 @@ http-errors@1.6.3, http-errors@~1.6.2, http-errors@~1.6.3:
     inherits "2.0.3"
     setprototypeof "1.1.0"
     statuses ">= 1.4.0 < 2"
+
+http-signature@~1.2.0:
+  version "1.2.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/http-signature/-/http-signature-1.2.0.tgz#9aecd925114772f3d95b65a60abb8f7c18fbace1"
+  dependencies:
+    assert-plus "^1.0.0"
+    jsprim "^1.2.2"
+    sshpk "^1.7.0"
 
 iconv-lite@0.4.23:
   version "0.4.23"
@@ -1095,6 +1230,10 @@ import-lazy@^2.1.0:
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
+
+inflection@1.12.0:
+  version "1.12.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/inflection/-/inflection-1.12.0.tgz#a200935656d6f5f6bc4dc7502e1aecb703228416"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -1154,6 +1293,10 @@ is-binary-path@^1.0.0:
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/is-binary-path/-/is-binary-path-1.0.1.tgz#75f16642b480f187a711c814161fd3a4a7655898"
   dependencies:
     binary-extensions "^1.0.0"
+
+is-bluebird@^1.0.2:
+  version "1.0.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/is-bluebird/-/is-bluebird-1.0.2.tgz#096439060f4aa411abee19143a84d6a55346d6e2"
 
 is-buffer@^1.1.5:
   version "1.1.6"
@@ -1298,6 +1441,10 @@ is-stream@^1.0.0, is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
 
+is-typedarray@~1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
+
 is-windows@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/is-windows/-/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
@@ -1305,6 +1452,12 @@ is-windows@^1.0.2:
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
+
+isemail@3.x.x:
+  version "3.2.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/isemail/-/isemail-3.2.0.tgz#59310a021931a9fb06bbb51e155ce0b3f236832c"
+  dependencies:
+    punycode "2.x.x"
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -1320,6 +1473,18 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
+isstream@~0.1.2:
+  version "0.1.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+
+joi@^14.0.6:
+  version "14.0.6"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/joi/-/joi-14.0.6.tgz#8c72314af6dba13ca48028a4f0af992ddc5a7472"
+  dependencies:
+    hoek "6.x.x"
+    isemail "3.x.x"
+    topo "3.x.x"
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -1331,13 +1496,34 @@ js-yaml@^3.12.0:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
+jsbn@~0.1.0:
+  version "0.1.1"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
+
 json-schema-traverse@^0.4.1:
   version "0.4.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
 
+json-schema@0.2.3:
+  version "0.2.3"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/json-schema/-/json-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
+
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
+
+json-stringify-safe@~5.0.1:
+  version "5.0.1"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
+
+jsprim@^1.2.2:
+  version "1.4.1"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/jsprim/-/jsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"
+  dependencies:
+    assert-plus "1.0.0"
+    extsprintf "1.3.0"
+    json-schema "0.2.3"
+    verror "1.10.0"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -1392,7 +1578,7 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
 
-lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5:
+lodash@^4.17.1, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.11"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -1461,7 +1647,7 @@ mime-db@~1.37.0:
   version "1.37.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/mime-db/-/mime-db-1.37.0.tgz#0b6a0ce6fdbe9576e25f1f2d2fde8830dc0ad0d8"
 
-mime-types@~2.1.18:
+mime-types@^2.1.12, mime-types@~2.1.18, mime-types@~2.1.19:
   version "2.1.21"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/mime-types/-/mime-types-2.1.21.tgz#28995aa1ecb770742fe6ae7e58f9181c744b3f96"
   dependencies:
@@ -1515,6 +1701,16 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment-timezone@^0.5.14:
+  version "0.5.23"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/moment-timezone/-/moment-timezone-0.5.23.tgz#7cbb00db2c14c71b19303cb47b0fb0a6d8651463"
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.20.0:
+  version "2.22.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+
 morgan@^1.9.1:
   version "1.9.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/morgan/-/morgan-1.9.1.tgz#0a8d16734a1d9afbc824b99df87e738e58e2da59"
@@ -1540,6 +1736,10 @@ mute-stream@0.0.7:
 nan@^2.9.2:
   version "2.11.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/nan/-/nan-2.11.1.tgz#90e22bccb8ca57ea4cd37cc83d3819b52eea6766"
+
+nan@~2.10.0:
+  version "2.10.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -1577,7 +1777,7 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
 
-node-pre-gyp@^0.10.0:
+node-pre-gyp@^0.10.0, node-pre-gyp@^0.10.3:
   version "0.10.3"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/node-pre-gyp/-/node-pre-gyp-0.10.3.tgz#3070040716afdc778747b61b6887bf78880b80fc"
   dependencies:
@@ -1664,6 +1864,10 @@ npmlog@^4.0.2:
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+
+oauth-sign@~0.9.0:
+  version "0.9.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
 
 object-assign@^4, object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
@@ -1830,6 +2034,10 @@ pause-stream@^0.0.11:
   dependencies:
     through "~2.3"
 
+performance-now@^2.1.0:
+  version "2.1.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -1895,17 +2103,25 @@ pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
+psl@^1.1.24:
+  version "1.1.29"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/psl/-/psl-1.1.29.tgz#60f580d360170bb722a797cc704411e6da850c67"
+
 pstree.remy@^1.1.0:
   version "1.1.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/pstree.remy/-/pstree.remy-1.1.0.tgz#f2af27265bd3e5b32bbfcc10e80bac55ba78688b"
   dependencies:
     ps-tree "^1.1.0"
 
-punycode@^2.1.0:
+punycode@2.x.x, punycode@^2.1.0:
   version "2.1.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
-qs@6.5.2:
+punycode@^1.4.1:
+  version "1.4.1"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
+
+qs@6.5.2, qs@~6.5.2:
   version "6.5.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
 
@@ -2002,6 +2218,31 @@ repeat-string@^1.6.1:
   version "1.6.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
 
+request@^2.87.0:
+  version "2.88.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
+  dependencies:
+    aws-sign2 "~0.7.0"
+    aws4 "^1.8.0"
+    caseless "~0.12.0"
+    combined-stream "~1.0.6"
+    extend "~3.0.2"
+    forever-agent "~0.6.1"
+    form-data "~2.3.2"
+    har-validator "~5.1.0"
+    http-signature "~1.2.0"
+    is-typedarray "~1.0.0"
+    isstream "~0.1.2"
+    json-stringify-safe "~5.0.1"
+    mime-types "~2.1.19"
+    oauth-sign "~0.9.0"
+    performance-now "^2.1.0"
+    qs "~6.5.2"
+    safe-buffer "^5.1.2"
+    tough-cookie "~2.4.3"
+    tunnel-agent "^0.6.0"
+    uuid "^3.3.2"
+
 require-uncached@^1.0.3:
   version "1.0.3"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/require-uncached/-/require-uncached-1.0.3.tgz#4e0d56d6c9662fd31e43011c4b95aa49955421d3"
@@ -2034,6 +2275,13 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
 
+retry-as-promised@^2.3.2:
+  version "2.3.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/retry-as-promised/-/retry-as-promised-2.3.2.tgz#cd974ee4fd9b5fe03cbf31871ee48221c07737b7"
+  dependencies:
+    bluebird "^3.4.6"
+    debug "^2.6.9"
+
 rimraf@^2.2.8, rimraf@^2.6.1:
   version "2.6.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
@@ -2062,7 +2310,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3":
+"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
@@ -2097,6 +2345,28 @@ send@0.16.2:
     on-finished "~2.3.0"
     range-parser "~1.2.0"
     statuses "~1.4.0"
+
+sequelize@^4.41.2:
+  version "4.41.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/sequelize/-/sequelize-4.41.2.tgz#bb9ba30d72e9eeb883c9861cd0e2cac672010883"
+  dependencies:
+    bluebird "^3.5.0"
+    cls-bluebird "^2.1.0"
+    debug "^3.1.0"
+    depd "^1.1.0"
+    dottie "^2.0.0"
+    generic-pool "^3.4.0"
+    inflection "1.12.0"
+    lodash "^4.17.1"
+    moment "^2.20.0"
+    moment-timezone "^0.5.14"
+    retry-as-promised "^2.3.2"
+    semver "^5.5.0"
+    terraformer-wkt-parser "^1.1.2"
+    toposort-class "^1.0.1"
+    uuid "^3.2.1"
+    validator "^10.4.0"
+    wkx "^0.4.1"
 
 serve-static@1.13.2:
   version "1.13.2"
@@ -2142,6 +2412,10 @@ shebang-command@^1.2.0:
 shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
+
+shimmer@^1.1.0:
+  version "1.2.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/shimmer/-/shimmer-1.2.0.tgz#f966f7555789763e74d8841193685a5e78736665"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
@@ -2235,6 +2509,28 @@ split@^1.0.1:
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+
+sqlite3@^4.0.4:
+  version "4.0.4"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/sqlite3/-/sqlite3-4.0.4.tgz#1f75e3ededad6e26f7dd819929460ce44a49dfcd"
+  dependencies:
+    nan "~2.10.0"
+    node-pre-gyp "^0.10.3"
+    request "^2.87.0"
+
+sshpk@^1.7.0:
+  version "1.15.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/sshpk/-/sshpk-1.15.2.tgz#c946d6bd9b1a39d0e8635763f5242d6ed6dcb629"
+  dependencies:
+    asn1 "~0.2.3"
+    assert-plus "^1.0.0"
+    bcrypt-pbkdf "^1.0.0"
+    dashdash "^1.12.0"
+    ecc-jsbn "~0.1.1"
+    getpass "^0.1.1"
+    jsbn "~0.1.0"
+    safer-buffer "^2.0.2"
+    tweetnacl "~0.14.0"
 
 static-extend@^0.1.1:
   version "0.1.2"
@@ -2336,6 +2632,19 @@ term-size@^1.2.0:
   dependencies:
     execa "^0.7.0"
 
+terraformer-wkt-parser@^1.1.2:
+  version "1.2.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/terraformer-wkt-parser/-/terraformer-wkt-parser-1.2.0.tgz#c9d6ac3dff25f4c0bd344e961f42694961834c34"
+  dependencies:
+    "@types/geojson" "^1.0.0"
+    terraformer "~1.0.5"
+
+terraformer@~1.0.5:
+  version "1.0.9"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/terraformer/-/terraformer-1.0.9.tgz#77851fef4a49c90b345dc53cf26809fdf29dcda6"
+  optionalDependencies:
+    "@types/geojson" "^1.0.0"
+
 text-table@^0.2.0:
   version "0.2.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -2376,15 +2685,42 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
+topo@3.x.x:
+  version "3.0.3"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/topo/-/topo-3.0.3.tgz#d5a67fb2e69307ebeeb08402ec2a2a6f5f7ad95c"
+  dependencies:
+    hoek "6.x.x"
+
+toposort-class@^1.0.1:
+  version "1.0.1"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/toposort-class/-/toposort-class-1.0.1.tgz#7ffd1f78c8be28c3ba45cd4e1a3f5ee193bd9988"
+
 touch@^3.1.0:
   version "3.1.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/touch/-/touch-3.1.0.tgz#fe365f5f75ec9ed4e56825e0bb76d24ab74af83b"
   dependencies:
     nopt "~1.0.10"
 
+tough-cookie@~2.4.3:
+  version "2.4.3"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/tough-cookie/-/tough-cookie-2.4.3.tgz#53f36da3f47783b0925afa06ff9f3b165280f781"
+  dependencies:
+    psl "^1.1.24"
+    punycode "^1.4.1"
+
 tslib@^1.9.0:
   version "1.9.3"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
+
+tunnel-agent@^0.6.0:
+  version "0.6.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
+  dependencies:
+    safe-buffer "^5.0.1"
+
+tweetnacl@^0.14.3, tweetnacl@~0.14.0:
+  version "0.14.5"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
 type-check@~0.3.2:
   version "0.3.2"
@@ -2482,6 +2818,10 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
+uuid@^3.2.1, uuid@^3.3.2:
+  version "3.3.2"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -2489,9 +2829,21 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+validator@^10.4.0:
+  version "10.9.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/validator/-/validator-10.9.0.tgz#d10c11673b5061fb7ccf4c1114412411b2bac2a8"
+
 vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
+
+verror@1.10.0:
+  version "1.10.0"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/verror/-/verror-1.10.0.tgz#3a105ca17053af55d6e270c1f8288682e18da400"
+  dependencies:
+    assert-plus "^1.0.0"
+    core-util-is "1.0.2"
+    extsprintf "^1.2.0"
 
 which@^1.2.9:
   version "1.3.1"
@@ -2510,6 +2862,12 @@ widest-line@^2.0.0:
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/widest-line/-/widest-line-2.0.1.tgz#7438764730ec7ef4381ce4df82fb98a53142a3fc"
   dependencies:
     string-width "^2.1.1"
+
+wkx@^0.4.1:
+  version "0.4.5"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/wkx/-/wkx-0.4.5.tgz#a85e15a6e69d1bfaec2f3c523be3dfa40ab861d0"
+  dependencies:
+    "@types/node" "*"
 
 wordwrap@~1.0.0:
   version "1.0.0"

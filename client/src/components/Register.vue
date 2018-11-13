@@ -16,6 +16,7 @@
       v-model="password"
     />
     <br>
+    <div class="error" v-html="error"></div>
     <button
       type="submit"
       @click="register">
@@ -31,21 +32,21 @@ export default {
   data () {
     return {
       email: '',
-      password: ''
-    }
-  },
-  watch: {
-    email (value) {
-      console.log('email has been updated: ', value)
+      password: '',
+      error: null
     }
   },
   methods: {
     async register () {
-      const response = await AuthenticationService.register({
-        email: this.email,
-        password: this.password
-      })
-      console.log(response.data)
+      try {
+        await AuthenticationService.register({
+          email: this.email,
+          password: this.password
+        })
+        this.error = null
+      } catch (err) {
+        this.error = err.response.data.error
+      }
     }
   },
   mounted () {
@@ -54,5 +55,7 @@ export default {
 </script>
 
 <style scoped>
-
+.error {
+  color: red
+}
 </style>
