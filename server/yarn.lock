@@ -186,6 +186,10 @@ basic-auth@~2.0.0:
   dependencies:
     safe-buffer "5.1.2"
 
+bcrypt-nodejs@^0.0.3:
+  version "0.0.3"
+  resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/bcrypt-nodejs/-/bcrypt-nodejs-0.0.3.tgz#c60917f26dc235661566c681061c303c2b28842b"
+
 bcrypt-pbkdf@^1.0.0:
   version "1.0.2"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
@@ -196,7 +200,7 @@ binary-extensions@^1.0.0:
   version "1.12.0"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/binary-extensions/-/binary-extensions-1.12.0.tgz#c2d780f53d45bba8317a8902d4ceeaf3a6385b14"
 
-bluebird@^3.4.6, bluebird@^3.5.0:
+bluebird@^3.4.6, bluebird@^3.5.0, bluebird@^3.5.3:
   version "3.5.3"
   resolved "https://artifactory.fractalindustries.com/artifactory/api/npm/fractal-npm-virtual/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
 
