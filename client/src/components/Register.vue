@@ -13,13 +13,11 @@
             type="email"
             label="Email"
             v-model="email"
-            placeholder="Email"
           />
           <br>
           <v-text-field
             type="password"
             label="Password"
-            placeholder="Password"
             v-model="password"
           />
           <br>
