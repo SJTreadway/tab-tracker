@@ -41,18 +41,6 @@
 
             <v-flex xs6>
               <img :src="song.albumImageUrl" class="song-image" />
-
-              <div class="song-youtube">
-                {{ song.youtubeId }}
-              </div>
-
-              <div class="song-lyrics">
-                {{ song.lyrics }}
-              </div>
-
-              <div class="song-tab">
-                {{ song.tab }}
-              </div>
             </v-flex>
           </v-layout>
         </div>
