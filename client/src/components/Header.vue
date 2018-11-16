@@ -2,7 +2,7 @@
   <v-toolbar fixed dark class="cyan">
     <v-toolbar-title class="mr-4">
       <v-btn flat dark @click="navigateTo({ name: 'home' })">
-        TabTracker
+        <h3>TabTracker</h3>
       </v-btn>
     </v-toolbar-title>
 
