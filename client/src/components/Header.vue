@@ -27,7 +27,7 @@
     </v-toolbar-items>
 
     <v-toolbar-items v-if="$store.state.isUserLoggedIn">
-      <v-btn flat dark @click="navigateTo({ name: 'logout' })">
+      <v-btn flat dark @click="logout">
         Logout
       </v-btn>
     </v-toolbar-items>
@@ -43,6 +43,11 @@ export default {
   methods: {
     navigateTo (route) {
       this.$router.push(route)
+    },
+    logout () {
+      this.$store.dispatch('setToken', null)
+      this.$store.dispatch('setUser', null)
+      this.$router.push({ name: 'home' })
     }
   }
 }
